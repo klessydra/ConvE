@@ -1,0 +1,1 @@
+add wave -r sim:/conv_eng_tb/*

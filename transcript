@@ -1,0 +1,26 @@
+# //  ModelSim SE-64 10.2c Jul 18 2013 Linux 4.15.0-122-generic
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L simprims_ver -L general_libs -t ps -vopt conv_eng_tb general_libs.glbl 
+# Loading /var/tmp/aes@aes-GE72MVR-7RG_dpi_25199/linux_x86_64_gcc-5.4.0/export_tramp.so
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.convolution_pkg(body)
+# Loading work.conv_eng_tb(ce_tb)#1
+# Loading sv_std.std
+# Loading general_libs.glbl(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ps  Iteration: 0  Process: /conv_eng_tb/CONV_ENG_NETLIST/CE/<implicit__97_13> File: /home/aes/Desktop/aes/2D-Convolution-Using-VHDL-master/Netlists/Convolution_netlist_wrap.vhd
+# FATAL ERROR while loading design
+# Error loading design
