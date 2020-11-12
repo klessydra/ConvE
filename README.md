@@ -4,7 +4,7 @@ This project was an initial effort to transform the behaivioral model in the ori
 
 https://github.com/BarisATAK/2D-Convolution-Using-VHDL
 
-into a synthesiable, and highly parametrizable hardware model capable of doing two different types convolutions
+into a synthesiable, and highly parametrizable hardware model capable of doing two different types of convolutions
 
 1) Full Single cycle hardware convolutions.
 
